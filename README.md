@@ -52,5 +52,5 @@ copy *.sql run.sql
 sqlplus root/12345 @run.sql
 exit
 cd ..\..\
-
+rmdir /s /q dummy_data\run
 ```
