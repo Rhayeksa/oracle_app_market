@@ -23,6 +23,8 @@ Role yang tersedia diantaranya adalah Kasir(Admin), Pelanggan dan Owner.
 
 - membuat cara penggunaan procedure bagi setiap role
 
+---
+
 ```import sql
 if exist import_sql\ rmdir /s /q import_sql\
 mkdir import_sql
@@ -36,6 +38,7 @@ copy *.sql run.sql
 sqlplus root/12345 @run.sql
 exit
 cd ..\
+rmdir /s /q import_sql\
 
 ```
 
