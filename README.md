@@ -39,7 +39,6 @@ sqlplus root/12345 @run.sql
 exit
 cd ..\
 rmdir /s /q import_sql\
-
 ```
 
 ```dummy data
