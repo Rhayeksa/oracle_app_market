@@ -21,13 +21,17 @@ Role yang tersedia diantaranya adalah Kasir(Admin), Pelanggan dan Owner.
   git clone https://github.com/Rhayeksa/oracle_app_market.git
   ```
 
-#### Download Script
+#### Download Zip
 
 ![1](documentation/download%20project%20zip.png)
 
 ---
 
-- membuat cara penggunaan procedure bagi setiap role
+ON Going
+
+- cara penggunaan procedure bagi setiap role
+
+### import sql
 
 ```import sql
 if exist import_sql\ rmdir /s /q import_sql\
@@ -44,6 +48,8 @@ exit
 cd ..\
 rmdir /s /q import_sql\
 ```
+
+### dummy data sql
 
 ```dummy data
 if exist dummy_data\run\ rmdir /s /q dummy_data\run\
