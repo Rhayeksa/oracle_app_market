@@ -7,7 +7,9 @@ Role yang tersedia diantaranya adalah Kasir(Admin), Pelanggan dan Owner.
 
 ## Setup Aplikasi
 
-### Git Clone
+### Download Project
+
+#### Git Clone
 
 - Buka terminal(CMD)
 - Pindah ke path yang diinginkan
@@ -19,11 +21,13 @@ Role yang tersedia diantaranya adalah Kasir(Admin), Pelanggan dan Owner.
   git clone https://github.com/Rhayeksa/oracle_app_market.git
   ```
 
-### Download Script
+#### Download Script
 
-- membuat cara penggunaan procedure bagi setiap role
+![1](documentation/download%20project%20zip.png)
 
 ---
+
+- membuat cara penggunaan procedure bagi setiap role
 
 ```import sql
 if exist import_sql\ rmdir /s /q import_sql\
